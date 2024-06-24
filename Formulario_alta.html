@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<html>
+<body>
+<h2>FORMULARIO DE USUARIO</h2>
+<form action="/action_page.php">
+    <fieldset>
+        <legend>Datos personales</legend>
+
+    <label for="fname">Nombre:</label><input type="text" id="fname" name="fname">
+    <label for="Iname">Apellido:</label><input type="text" id="Iname" name="Iname"><br>
+    <label for="Iname">Direccion:</label> <input type="text" id="Iname" name="Iname">
+    <label for="Iname">Ciudad:</label> <input type="text" id="Iname" name="Iname"><br>
+    <label for="Iname">Codigo Postal:</label><input type="number" id="Iname" name="Iname">
+    <label for="Iname">Telefono:</label><input type="number" id="Iname" name="Iname"><br>
+    <label for="Iname">Fecha Nac.(mm/dd/yyy):</label><input type="date" id="Fecha Nac.(mm/dd/yyyy):" name="Fecha Nac.(mm/dd/yyyy):"><br>
+    <label for="Iname">Genero(Radio):</label><input type="text" id="Iname" name="Iname">
+    <input type="radio" id="Hombre" name="Genero">
+    <label for="Hombre">Hombre</label>
+    <input type="radio" id="Mujer" name="Genero">
+    <label for="Mujer">Mujer</label>
+    <input type="radio" id="Otro" name="Genero">
+    <label for="Otro">Otro</label><br><br>
+    </fieldset>
+    <br>
+    <label for="Iname">Conocimientos previos: (checkbox)</label>
+    <input type="checkbox" id="Lenguajes" name="Lenguajes">
+    <label for="Lenguajes">HTML</label>
+    <input type="checkbox" id="Lenguajes" name="Lenguajes">
+    <label for="Lenguajes">CSS</label>
+    <input type="checkbox" id="Lenguajes" name="Lenguajes">
+    <label for="Lenguajes">Bootstrap</label>
+    <input type="checkbox" id="Lenguajes" name="Lenguajes">
+    <label for="Lenguajes">JavaScript</label>
+    <input type="checkbox" id="Lenguajes" name="Lenguajes">
+    <label for="Lenguajes">Base de Datos</label>
+    <input type="checkbox" id="Lenguajes" name="Lenguajes">
+    <label for="Lenguajes">Python</label>
+    <input type="checkbox" id="Lenguajes" name="Lenguajes">
+    <label for="Lenguajes">Django</label><br><br>
+
+    <label for="Estudios">Estudios: (Select)</label>
+    <select id="Estudios" name="Estudios">
+        <option value="Estudios">Primario</option>
+        <option value="Estudios">Secundario</option>
+        <option value="Estudios">Terciario</option>
+        <option value="Estudios">Universitario</option>
+      </select><br><br>
+
+      <label for="Iname">Comentarios</label>
+    <textarea name="message" rows="7" cols="50"></textarea><br>
+    <br>
+    <button type="button" onclick="alert('Se enviaron los datos')">Enviar</button>
+    <button type="button" onclick="alert('No se pudo enviar los datos')">Cancelar</button>
+    <input type="reset" id="fname" name="fname" value="Reset"><br>
+
+</body>
+</html>
